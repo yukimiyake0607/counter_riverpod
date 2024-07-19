@@ -6,7 +6,9 @@ part 'counter_provider.g.dart';
 @riverpod
 class Counter extends _$Counter {
   @override
-  int build() => 0;
+  int build() {
+    return 0;
+  }
 
   void increment() => state++;
 }
