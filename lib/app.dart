@@ -8,6 +8,16 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: HomeScreen(),
+      theme: ThemeData(
+        appBarTheme: const AppBarTheme(
+          color: Colors.lightBlueAccent,
+          titleTextStyle: TextStyle(
+            color: Colors.white,
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
     );
   }
 }
